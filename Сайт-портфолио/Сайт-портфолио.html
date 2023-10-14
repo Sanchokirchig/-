@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta property="og:locale" content="ru_RU" />
+        <meta property="og:type" content="website" />
+        <title>Портфолио</title>
+        <meta property="og:title" content="Портфолио (пример)" />
+        <meta name="description" content="Описание сайта отображаемое в превью ссылок" />
+        <meta property="og:description" content="Описание сайта отображаемое в превью ссылок" />
+        <meta name="keywords" content="портфолио, веб-разработчик, веб-дизайнер, сайты" />
+        <meta property="og:image" content="https://example.com/assets/img/preview.png" />
+        <meta property="og:image:alt" content="Описание изображения" />
+        <meta property="og:url" content="https://example.com/" />
+        <link rel="canonical" href="https://example.com/" />
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a class="nav-button color-black" href="#main">Главная</a></li>
+                <li><a class="nav-button color-black" href="#about">Обо мне</a></li>
+                <li><a class="nav-button color-black" href="#skills">Навыки и стек</a></li>
+                <li><a class="nav-button color-black" href="#projects">Проекты</a></li>
+            </ul>
+            <div class="contact-button-container">
+                <a class="contact-button color-orange" href="#form">
+                    <span class="contact-button-text">Связаться со мной</span>
+                </a>
+            </div>
+        </nav>
+
+        <main>
+            <section class="container" id="main">
+                <h1 class="big-header color-black">Александр Киреев</h1>
+                <p class="main-desc desc-font color-black">Разработчик сайтов</p>
+                <img class="main-pic" src="images/Главный экран.png" alt="Главный экран">
+            </section>
+
+            <section class="container" id="about">
+                <div class="about-details background-turquoise">
+                    <h1 class="big-header color-black">ПРИВЕТ, Я ВЕБ-РАЗРАБОТЧИК</h1>
+                        <p class="about-desc desc-font color-black">
+                        Описание автора портфолио. Более подробный текст про вас, что вы делаете,
+                        какими проектами занимаетесь, какой у вас опыт в профессии.
+                        </p>
+                </div>
+                <figure class="about-photo">
+                    <img src="images/Александр.jpg" alt="Фотография автора">
+                </figure>
+            </section>
+
+            <section class="container" id="skills">
+                <h1 class="big-header color-black">Навыки и стек технологий</h1>
+                <div class="skills-table">
+                    <div class="skills-card">
+                        <section class="skills-card-section">
+                            <img class="skills-card-icon" src="icons/Development.svg" alt="Иконка Разработка сайтов">
+                            <h2 class="skills-card-header color-black">Разработка сайтов</h2>
+                            <p class="skills-card-text color-black">
+                                Короткое общее описание навыков в разработке: 
+                                фронтенд, бэкенд, базы данных, DevOps.
+                            </p>
+                        </section>
+
+                        <section class="skills-card-section">
+                            <h3 class="skills-card-subheader color-orange">Языки:</h3>
+                            <p class="skills-card-list color-black">
+                                HTML, CSS...<br/>
+                                Дополните список<br/>
+                            </p>
+
+                            <h3 class="skills-card-subheader color-orange">Инструменты:</h3>
+                            <p class="skills-card-list color-black">
+                                VS Code<br/>
+                                Github<br/>
+                                Git<br/>
+                                Дополнительные инструменты<br/>
+                            </p>
+                        </section>
+                </div>
+
+                <div class="skills-card">
+                    <section class="skills-card-section">
+                        <img class="skills-card-icon" src="icons/Design.svg" alt="Иконка дизайн">
+                        <h2 class="skills-card-header color-black">Дизайн</h2>
+                        <p class="skills-card-text color-black">
+                            Короткое общееописание навыков дизайна.
+                        </p>
+                    </section>
+
+                    <section class="skills-card-section">
+                        <h3 class="skills-card-subheader color-orange">Инструменты:</h3>
+                        <ul class="skills-card-list color-black">
+                            <li>Figma</li>
+                            <li>Дополните список</li>
+                        </ul>
+                    </section>
+                </div>
+
+                <div class="skills-card">
+                    <section class="skills-card-section">
+                        <img class="skills-card-icon" src="icons/SoftSkills.svg" alt="Иконка Софт">
+                        <h2 class="skills-card-header color-black">Soft skills</h2>
+                        <p class="skills-card-text color-black">Короткое общее описание софт скиллов. Умение работать в команде и пр.</p>
+                    </section>
+
+                    <section class="skills-card-section">
+                        <h3 class="skills-card-subheader color-orange">Навыки</h3>
+                        <p class="skills-card-list color-black">
+                            Навык<br/>
+                            Навык<br/>
+                            Навык<br/>
+                            Навык<br/>
+                        </p>
+                    </section>
+                </div>
+            </section>
+
+            <section class="container" id="projects">
+                <h1 class="big-header color-black">Проекты</h1>
+                <div class="projects-display">
+                    <figure class="projects-card">
+                        <a href="https://example.com">
+                            <img src="images/screenshot.png" alt="Скриншот проекта">
+                        </a>
+                    </figure>
+
+                    <figure class="projects-card">
+                        <a href="https://example.com">
+                            <img src="images/screenshot.png" alt="Скриншот проекта">
+                        </a>
+                    </figure>
+
+                    <figure class="projects-card">
+                        <a href="https://example.com">
+                            <img src="images/screenshot.png" alt="Скриншот проекта">
+                        </a>
+                    </figure>
+
+                    <figure class="projects-card">
+                        <a href="https://example.com">
+                            <img src="images/screenshot.png" alt="Скриншот проекта">
+                        </a>
+                    </figure>
+
+                    <figure class="projects-card">
+                        <a href="https://example.com">
+                            <img src="images/screenshot.png" alt="Скриншот проекта">
+                        </a>
+                    </figure>
+
+                    <figure class="projects-card">
+                        <a href="https://example.com">
+                            <img src="images/screenshot.png" alt="Скриншот проекта">
+                        </a>
+                    </figure>
+                </div>
+
+                <a class="projects-button color-orange" href="https://github.com/username">
+                    <span class="projects-button-text">Посмотреть на Github</span>
+                </a>
+            </section>
+
+            <section class="container" id="form">
+                <div class="form-details container background-turquoise">
+                    <h1 class="big-header color-black">Хотите заказать сайт?</h1>
+                    <p class="form-details-text desc-font color-black">
+                        Напишите мне, чтобы обсудить детали.
+                    </p>
+                </div>
+
+                <div id="contact-form" class="form-container">
+                    <img class="form-pic" src="images/Форма.png" alt="Форма">
+                    <form class="form">
+                        <fieldset class="form-sender-data">
+                            <label class="form-field" for="name">
+                                <span class="form-label color-black">Имя</span>
+                                <input class="form-input color-black" type="text" name="name" />
+                            </label>
+                            <label class="form-field" for="email">
+                                <span class="form-label color-black">E-mail</span>
+                                <input class="form-input color-black" type="email" name="email" />
+                            </label>
+                        </fieldset>
+
+                        <fieldset class="form-text-body">
+                            <label class="form-field" for="body">
+                                <span class="form-label color-black">Расскажите про свою задачу</span>
+                                <textarea class="form-input color-black" name="body"></textarea>
+                            </label>
+                        </fieldset>
+
+                        <fieldset class="form-submit">
+                            <button class="form-button color-orange" type="submit">
+                                <span class="form-button-text">Отправить</span>
+                            </button>
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+
+            <section class="container" id="reviews">
+                <h1 class="big-header color-black">Отзывы</h1>
+                <p class="reviews-desc desc-font color-black">
+                    Люди, с которыми я работал, остаются довольны результатом.
+                </p>
+                <figure class="reviews-card">
+                    <div class="reviews-photo">
+                        <img src="images/Довольный клиент.jpg" alt="Фото автора отзыва">
+                    </div>
+                    <figcaption class="reviews-caption">
+                        <p class="reviews-text color-black">«Текст отзыва»</p>
+                        <p class="reviews-info color-black">Имя Фамилия</p>
+                        <p class="reviews-info color-black">Компания, Город</p>
+                    </figcaption>
+                </figure>
+
+                <div class="reviews-toggle">
+                    <button class="reviews-toggle-button" type="button">  
+                    <img class="reviews-toggle-arrow" src="icons/Arrow-L.svg" alt="Иконка влево">
+                    <img class="reviews-toggle-arrow icon-hover" src="icons/Arrow-L.svg" alt="Иконка вправо">
+                    </button>
+                     
+                    <button class="reviews-toggle-button" type="button">
+                        <img class="reviews-toggle-arrow" src="icons/Arrow-R.svg" alt="Стрелка вправо">
+                        <img class="reviews-toggle-arrow icon-hover" src="icons/Arrow-R.svg" alt="Стрелка вправо">
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <aside id="letstalk" class="container">
+            <div class="letstalk-box">
+                <h2 class="letstalk-header">Договоримся о сотрудничестве</h2>
+                <p class="letstalk-text">
+                    У вас есть идея проекта или предложение о работе? 
+                    Напишите мне. Я открыт к разным вариантам
+                    сотрудничества.
+                </p>
+                <div class="letstalk-button-container">
+                    <a class="letstalk-button" href="#form">
+                        <span class="letstalk-button-text">Связаться с разработчиком</span>
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <footer>
+            <div class="footer-socials">
+                <a class="footer-social-container" href="https://t.me/example">
+                    <img class="footer-social-icon" src="icons/TG.svg" alt="Telegram">
+                    <img class="footer-social-icon icon-hover" src="icons/TG-white.svg" alt="Telegram">
+                </a>
+
+                <a class="footer-social-container" href="https://habr.com/ru/users/example">
+                    <img class="footer-social-icon" src="icons/Habr.svg" alt="Habr">
+                    <img class="footer-social-icon icon-hover" src="icons/Habr-white.svg" alt="Habr">
+                </a>  
+                
+                <a class="footer-social-container" href="mailto:someone@example.com">
+                    <img class="footer-social-icon" src="icons/Email.svg" alt="Email">
+                    <img class="footer-social-icon icon-hover" src="icons/Email-white.svg" alt="Email">
+                </a>
+            </div>
+
+            <p class="footer-links color-black">
+                Изображения и иконки:
+                <a href="https://ru.freepik.com/free-vector/software-integration-concept-illustration_18352184.htm#page=2&query=веб-разработка&position=7&from_view=search&track=sph">
+                    Изображение-1 от Storyset на Freepik.
+                </a>
+                <a href="https://ru.freepik.com/free-vector/code-typing-concept-illustration_10259340.htm#&position=12&from_view=author">
+                    Изображение-2 от Storyset на Freepik.
+                </a>
+                <a href="https://www.flaticon.com/ru/free-icons/html" title="html иконки">
+                    Иконка "Html" oT Frey Wazza a Flaticon.
+                </a>
+                <a href="https://www.flaticon.com/ru/free-icons/" title="телеграмма иконки">
+                    Иконка «Телеграм» от Freepik на Flaticon.
+                </a>
+                <a href="https: //www.flaticon.com/ru/free-icons/" title="общение иконки">
+                    Иконка «Общение» от Ilham Fitrotul Hayat на Flaticon.
+                </a>
+                <a href="https://www.flaticon.com/ru/free-icons/-" title="Дизайн сайта иконки">
+                    Иконка «Дизайн сайта» от Freepik на Flaticon.
+                </a>
+                <a href="https://www.flaticon.com/ru/free-icons/-" title=" Эл. адрес иконки">
+                    Иконка «Эл. адрес» от Those Icons a Flaticon.
+                </a>
+            </p>
+        </footer>
+    </body>
+</html>
